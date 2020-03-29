@@ -1,8 +1,13 @@
+// React
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+
+// Components
+import "./index.scss";
+import App from "./App";
+
+// Font generator
 const webfontsGenerator = require("webfonts-generator");
 
 webfontsGenerator(
